@@ -41,7 +41,7 @@ export default function HomePage() {
             </p>
           </MotionBox>
           <MotionBox delay={0.25}>
-            <a href="#" download={'/resume.pdf'} className="flex items-center gap-4 border border-white text-lg px-14 py-4 rounded-xl font-medium transition outline-none w-fit hover:bg-white hover:text-black md:w-full md:mb-4">
+            <a href="#" download={'/resume.pdf'} className="flex items-center justify-center gap-4 border border-white text-lg px-14 py-4 rounded-xl font-medium transition outline-none w-fit hover:bg-white hover:text-black md:w-full md:mb-4">
               <span>See my Resume</span>
               <IoCloudDownloadOutline />
             </a>
