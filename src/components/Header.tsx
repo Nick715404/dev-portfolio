@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between gap-5 container-big">
           <Logo />
           <Navigation />
-          <Link className="font-medium text-2xl hover:scale-105 transition lg:text-base md:hidden" href='#contact'>Contact with me</Link>
+          <Link className="font-medium text-2xl hover:scale-105 transition lg:text-base md:hidden" href='#footer'>Contact with me</Link>
         </div>
       </MotionBox>
     </header>

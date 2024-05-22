@@ -1,6 +1,7 @@
 import { TProject } from "@/types/data.types";
 import Image from "next/image";
 import { MotionBox } from "../MotionBox";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 type Props = { data: TProject; }
 

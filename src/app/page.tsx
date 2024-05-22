@@ -1,5 +1,6 @@
 import { Hero, Socials, About, Stack, Projects, MotionBox } from "@/components";
 import Image from "next/image";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 export default function HomePage() {
   return (
@@ -40,9 +41,10 @@ export default function HomePage() {
             </p>
           </MotionBox>
           <MotionBox delay={0.25}>
-            <button className="border border-white text-lg px-14 py-3 rounded-xl font-medium transition outline-none w-fit hover:bg-white hover:text-black md:w-full md:mb-4">
-              See my Resume
-            </button>
+            <a href="#" download={'/resume.pdf'} className="flex items-center gap-4 border border-white text-lg px-14 py-4 rounded-xl font-medium transition outline-none w-fit hover:bg-white hover:text-black md:w-full md:mb-4">
+              <span>See my Resume</span>
+              <IoCloudDownloadOutline />
+            </a>
           </MotionBox>
         </div>
         <div className="relative bg-gray-500 rounded-[2rem] lg:rounded-[1rem] lg:aspect-[1/1] w-[35%] aspect-[1/1.2] overflow-hidden xl:w-[45%] lg:w-full lg:mb-10 md:mt-4">
