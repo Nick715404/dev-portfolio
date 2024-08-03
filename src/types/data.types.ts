@@ -1,11 +1,12 @@
 export type TStack = {
-  icon: string;
-  title: string;
-}
+	icon: string;
+	title: string;
+};
 
 export type TProject = {
-  id: number;
-  title: string;
-  tag: string;
-  image: string;
-}
+	id: string;
+	title: string;
+	tag: string;
+	image: string;
+	href: string;
+};
