@@ -44,14 +44,14 @@ export const stack: TStack[] = [
 		title: 'React Query',
 		icon: '/svg/rq.svg',
 	},
-	{
-		title: 'Effector',
-		icon: '/svg/effector.svg',
-	},
 	// {
-	//   title: 'Redux',
-	//   icon: '/svg/redux.svg'
+	// 	title: 'Effector',
+	// 	icon: '/svg/effector.svg',
 	// },
+	{
+		title: 'redux tool kit',
+		icon: '/redux.png',
+	},
 	{
 		title: 'React hook form',
 		icon: '/svg/rhf.svg',
